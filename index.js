@@ -11,19 +11,29 @@ module.exports = function(url){
 
   return {
     'default': {
-      url: 'http://img.youtube.com/vi/' + id + '/default.jpg',
-      width: 120,
-      height: 90
-    },
-    medium: {
-      url: 'http://img.youtube.com/vi/' + id + '/mqdefault.jpg',
-      width: 320,
-      height: 180
+      url: 'https://img.youtube.com/vi/' + id + '/default.jpg',
+      width: 0,
+      height: 0
     },
     high: {
-      url: 'http://img.youtube.com/vi/' + id + '/hqdefault.jpg',
-      width: 480,
-      height: 360
+      url: 'https://img.youtube.com/vi/' + id + '/maxresdefault.jpg',
+      width: 0,
+      height: 0
+    },
+    standard: {
+      url: 'https://img.youtube.com/vi/' + id + '/sddefault.jpg',
+      width: 0,
+      height: 0
+    },
+    medium: {
+      url: 'https://img.youtube.com/vi/' + id + '/hqdefault.jpg',
+      width: 0,
+      height: 0
+    },
+    low: {
+      url: 'https://img.youtube.com/vi/' + id + '/mqdefault.jpg',
+      width: 0,
+      height: 0
     },
   }
 };
